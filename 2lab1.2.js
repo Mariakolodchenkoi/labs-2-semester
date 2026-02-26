@@ -16,6 +16,7 @@ const days = DayGenerator();
 for (let i = 0; i < 28; i++) {
 console.log(days.next().value);
 }
+
 function runWithTimeout(iterator, seconds) {
     const end = Date.now() + seconds * 1000;
   while (Date.now() < end) {
