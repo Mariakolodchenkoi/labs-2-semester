@@ -1,4 +1,4 @@
-function* DayGenerator() {
+export function* DayGenerator() {
     let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     let i = 0;
 
@@ -11,8 +11,3 @@ function* DayGenerator() {
     }
 }
 
-const days = DayGenerator();
-
-for (let i = 0; i < 28; i++) {
-console.log(days.next().value);
-}

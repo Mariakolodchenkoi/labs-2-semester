@@ -1,0 +1,1 @@
+export { DayGenerator, runWithTimeout } from './2lab1.2.js';
